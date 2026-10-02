@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Metadata } from "next";
 
 import HeroParticles from "./HeroParticles";
@@ -31,6 +32,7 @@ export default function PortfolioPage() {
             <a href="#work">Work</a>
             <a href="#experience">Experience</a>
             <a href="#credentials">Credentials</a>
+            <Link href="/blog/adk-state-rewind-resume/">Writing</Link>
             <a href="#contact">Contact</a>
             <a href={profile.linkedinUrl} target="_blank" rel="noreferrer">LinkedIn</a>
           </nav>
