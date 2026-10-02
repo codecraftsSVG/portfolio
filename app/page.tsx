@@ -32,7 +32,7 @@ export default function PortfolioPage() {
             <a href="#work">Work</a>
             <a href="#experience">Experience</a>
             <a href="#credentials">Credentials</a>
-            <Link href="/blog/adk-state-rewind-resume/">Writing</Link>
+            <Link href="/blog/adk-agent-handoffs-human-approval/">Writing</Link>
             <a href="#contact">Contact</a>
             <a href={profile.linkedinUrl} target="_blank" rel="noreferrer">LinkedIn</a>
           </nav>
